@@ -1,12 +1,12 @@
-package com.schoolprojects.demo.buget;
+package com.schoolprojects.demo.buget.DTO;
 
-public class BudgetCategory {
+public class BudgetCategoryDTO {
     private String catName;
     private String catDes;
     private double amount;
     private int catType; // 0 for income, 1 for expense
 
-    public BudgetCategory(String catName, String catDes, double amount, int catType) {
+    public BudgetCategoryDTO(String catName, String catDes, double amount, int catType) {
         this.catName = catName;
         this.catDes = catDes;
         this.amount = amount;
